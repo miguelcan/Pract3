@@ -14,6 +14,7 @@
 		2705537F19E9DBE100AC2085 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2705537E19E9DBE100AC2085 /* Images.xcassets */; };
 		2705538219E9DBE100AC2085 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2705538019E9DBE100AC2085 /* LaunchScreen.xib */; };
 		2705538E19E9DBE100AC2085 /* Pract3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2705538D19E9DBE100AC2085 /* Pract3Tests.m */; };
+		2705539919E9E09400AC2085 /* Background - Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 2705539819E9E09400AC2085 /* Background - Black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2705538719E9DBE100AC2085 /* Pract3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pract3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2705538C19E9DBE100AC2085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2705538D19E9DBE100AC2085 /* Pract3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pract3Tests.m; sourceTree = "<group>"; };
+		2705539819E9E09400AC2085 /* Background - Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background - Black.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		2705537119E9DBE100AC2085 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2705539719E9E06500AC2085 /* img */,
 				2705537219E9DBE100AC2085 /* Info.plist */,
 				2705537319E9DBE100AC2085 /* main.m */,
 			);
@@ -117,6 +120,14 @@
 				2705538C19E9DBE100AC2085 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2705539719E9E06500AC2085 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2705539819E9E09400AC2085 /* Background - Black.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				2705537D19E9DBE100AC2085 /* Main.storyboard in Resources */,
 				2705538219E9DBE100AC2085 /* LaunchScreen.xib in Resources */,
 				2705537F19E9DBE100AC2085 /* Images.xcassets in Resources */,
+				2705539919E9E09400AC2085 /* Background - Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,7 @@
 				INFOPLIST_FILE = Pract3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +371,7 @@
 				INFOPLIST_FILE = Pract3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
