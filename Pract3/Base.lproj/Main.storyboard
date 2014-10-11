@@ -30,40 +30,40 @@
             </objects>
             <point key="canvasLocation" x="27" y="228"/>
         </scene>
-        <!--Item 2-->
+        <!--View2-->
         <scene sceneID="KxY-lu-MsA">
             <objects>
-                <viewController id="4Wn-bc-Yac" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view2" id="4Wn-bc-Yac" customClass="view2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hA-gi-gJ7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="4jA-aJ-qIQ"/>
+                    <tabBarItem key="tabBarItem" title="" image="msg.png" id="4jA-aJ-qIQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H2j-5t-7I2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="855" y="442"/>
+            <point key="canvasLocation" x="1208" y="385"/>
         </scene>
-        <!--Item 1-->
+        <!--View1-->
         <scene sceneID="Vga-sp-Pw0">
             <objects>
-                <viewController id="thU-pG-WNV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view1" id="thU-pG-WNV" customClass="view1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nov-7z-WXu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="jm0-Bl-Hwu"/>
+                    <tabBarItem key="tabBarItem" title="" image="tbl.png" id="jm0-Bl-Hwu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2s-Zo-MUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="-188"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Bar-->
         <scene sceneID="Tvz-Tl-yGe">
             <objects>
-                <tabBarController id="N8F-GF-bAF" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="bar" id="N8F-GF-bAF" customClass="bar" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="kEF-gf-euv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -73,15 +73,34 @@
                     <connections>
                         <segue destination="thU-pG-WNV" kind="relationship" relationship="viewControllers" id="aea-hs-KOv"/>
                         <segue destination="4Wn-bc-Yac" kind="relationship" relationship="viewControllers" id="voK-WT-XB8"/>
+                        <segue destination="4D6-MP-pOu" kind="relationship" relationship="viewControllers" id="5kN-sT-YFG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBg-lg-Qw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="404" y="228"/>
         </scene>
+        <!--View3-->
+        <scene sceneID="jD6-Iy-0W0">
+            <objects>
+                <viewController storyboardIdentifier="view3" id="4D6-MP-pOu" customClass="view3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mAY-7v-7Zy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="cal.png" id="n4T-l4-gxa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTm-vr-ixA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839" y="767"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background - Black.png" width="256" height="256"/>
+        <image name="cal.png" width="30" height="30"/>
+        <image name="msg.png" width="30" height="30"/>
+        <image name="tbl.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
