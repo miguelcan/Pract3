@@ -31,6 +31,9 @@
 		270553C219EA02D400AC2085 /* laura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BC19EA02D400AC2085 /* laura.jpg */; };
 		270553C319EA02D400AC2085 /* pancho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BD19EA02D400AC2085 /* pancho.jpg */; };
 		270553C519EA089900AC2085 /* meta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553C419EA089900AC2085 /* meta.jpg */; };
+		270553C919EA526200AC2085 /* avianca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553C619EA526200AC2085 /* avianca.jpg */; };
+		270553CA19EA526200AC2085 /* pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553C719EA526200AC2085 /* pan.jpg */; };
+		270553CB19EA526200AC2085 /* taca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553C819EA526200AC2085 /* taca.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		270553BC19EA02D400AC2085 /* laura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laura.jpg; sourceTree = "<group>"; };
 		270553BD19EA02D400AC2085 /* pancho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancho.jpg; sourceTree = "<group>"; };
 		270553C419EA089900AC2085 /* meta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meta.jpg; sourceTree = "<group>"; };
+		270553C619EA526200AC2085 /* avianca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avianca.jpg; sourceTree = "<group>"; };
+		270553C719EA526200AC2085 /* pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pan.jpg; sourceTree = "<group>"; };
+		270553C819EA526200AC2085 /* taca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taca.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,9 @@
 		2705539719E9E06500AC2085 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				270553C619EA526200AC2085 /* avianca.jpg */,
+				270553C719EA526200AC2085 /* pan.jpg */,
+				270553C819EA526200AC2085 /* taca.jpg */,
 				270553C419EA089900AC2085 /* meta.jpg */,
 				270553B819EA02D400AC2085 /* carmen.jpg */,
 				270553B919EA02D400AC2085 /* chango.jpg */,
@@ -274,11 +283,14 @@
 				2705538219E9DBE100AC2085 /* LaunchScreen.xib in Resources */,
 				270553C519EA089900AC2085 /* meta.jpg in Resources */,
 				270553B019E9F8CF00AC2085 /* msg@2x.png in Resources */,
+				270553CB19EA526200AC2085 /* taca.jpg in Resources */,
 				270553C119EA02D400AC2085 /* jebus.jpg in Resources */,
+				270553CA19EA526200AC2085 /* pan.jpg in Resources */,
 				2705537F19E9DBE100AC2085 /* Images.xcassets in Resources */,
 				270553C219EA02D400AC2085 /* laura.jpg in Resources */,
 				2705539919E9E09400AC2085 /* Background - Black.png in Resources */,
 				270553BF19EA02D400AC2085 /* chango.jpg in Resources */,
+				270553C919EA526200AC2085 /* avianca.jpg in Resources */,
 				270553AF19E9F8CF00AC2085 /* cal@2x.png in Resources */,
 				270553C019EA02D400AC2085 /* jaimed.jpg in Resources */,
 				270553B119E9F8CF00AC2085 /* tbl@2x.png in Resources */,

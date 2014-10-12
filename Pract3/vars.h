@@ -11,4 +11,8 @@
 @interface vars : NSObject
 extern  NSMutableArray *maFrd;
 extern  NSMutableArray *maImgf;
+extern  NSMutableArray *maAero;
+extern  NSMutableArray *maOri;
+extern  NSMutableArray *maDest;
+extern  NSMutableArray *maAir;
 @end

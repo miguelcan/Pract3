@@ -11,5 +11,8 @@
 @implementation vars
   NSMutableArray *maFrd;
   NSMutableArray *maImgf;
-
+  NSMutableArray *maAero;
+  NSMutableArray *maOri;
+  NSMutableArray *maDest;
+  NSMutableArray *maAir;
 @end
