@@ -7,6 +7,8 @@
 //
 
 #import "view1.h"
+#import "FirendList.h"
+#import "vars.h"
 
 @interface view1 ()
 
@@ -17,11 +19,62 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+        maFrd     =  [NSMutableArray arrayWithObjects:@"Jebus", @"Changoleon", @"Jaime", @"Laura", @"Carmen", @"Pancho", nil];
+        maImgf     =  [NSMutableArray arrayWithObjects:@"jebus.jpg", @"chango.jpg", @"jaimed.jpg", @"laura.jpg", @"carmen.jpg", @"pancho.jpg", nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/**********************************************************************************************
+ Table Functions
+ **********************************************************************************************/
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+//-------------------------------------------------------------------------------
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 6;
+}
+//-------------------------------------------------------------------------------
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 74;
+}
+//-------------------------------------------------------------------------------
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"FirendList";
+    
+    FirendList *cell = (FirendList *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[FirendList alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    cell.lblName.text       = maFrd[indexPath.row];
+    cell.imgFriend.image    = [UIImage imageNamed:maImgf[indexPath.row]];
+    
+    return cell;
+}
+
+//-------------------------------------------------------------------------------
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+   /* strSelectedName     = [NSString stringWithFormat:@"%@", maNames[indexPath.row]];
+    strSelectedImg      = [NSString stringWithFormat:@"%@", maImages[indexPath.row]];
+    
+    NSLog(@"strSelectedName %@", strSelectedName);
+    NSLog(@"strSelectedImg %@", strSelectedImg);
+    
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"Details"];
+    [self presentViewController:vc animated:YES completion:nil];*/
 }
 
 /*
@@ -34,4 +87,6 @@
 }
 */
 
+- (IBAction)evtShare:(id)sender {
+}
 @end

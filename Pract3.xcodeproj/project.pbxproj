@@ -22,6 +22,14 @@
 		270553AF19E9F8CF00AC2085 /* cal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 270553AC19E9F8CF00AC2085 /* cal@2x.png */; };
 		270553B019E9F8CF00AC2085 /* msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 270553AD19E9F8CF00AC2085 /* msg@2x.png */; };
 		270553B119E9F8CF00AC2085 /* tbl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 270553AE19E9F8CF00AC2085 /* tbl@2x.png */; };
+		270553B419E9FD7D00AC2085 /* FirendList.m in Sources */ = {isa = PBXBuildFile; fileRef = 270553B319E9FD7D00AC2085 /* FirendList.m */; };
+		270553B719EA00A700AC2085 /* vars.m in Sources */ = {isa = PBXBuildFile; fileRef = 270553B619EA00A700AC2085 /* vars.m */; };
+		270553BE19EA02D400AC2085 /* carmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553B819EA02D400AC2085 /* carmen.jpg */; };
+		270553BF19EA02D400AC2085 /* chango.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553B919EA02D400AC2085 /* chango.jpg */; };
+		270553C019EA02D400AC2085 /* jaimed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BA19EA02D400AC2085 /* jaimed.jpg */; };
+		270553C119EA02D400AC2085 /* jebus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BB19EA02D400AC2085 /* jebus.jpg */; };
+		270553C219EA02D400AC2085 /* laura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BC19EA02D400AC2085 /* laura.jpg */; };
+		270553C319EA02D400AC2085 /* pancho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270553BD19EA02D400AC2085 /* pancho.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +68,16 @@
 		270553AC19E9F8CF00AC2085 /* cal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cal@2x.png"; sourceTree = "<group>"; };
 		270553AD19E9F8CF00AC2085 /* msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg@2x.png"; sourceTree = "<group>"; };
 		270553AE19E9F8CF00AC2085 /* tbl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tbl@2x.png"; sourceTree = "<group>"; };
+		270553B219E9FD7D00AC2085 /* FirendList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirendList.h; sourceTree = "<group>"; };
+		270553B319E9FD7D00AC2085 /* FirendList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirendList.m; sourceTree = "<group>"; };
+		270553B519EA00A700AC2085 /* vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vars.h; sourceTree = "<group>"; };
+		270553B619EA00A700AC2085 /* vars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vars.m; sourceTree = "<group>"; };
+		270553B819EA02D400AC2085 /* carmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carmen.jpg; sourceTree = "<group>"; };
+		270553B919EA02D400AC2085 /* chango.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chango.jpg; sourceTree = "<group>"; };
+		270553BA19EA02D400AC2085 /* jaimed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jaimed.jpg; sourceTree = "<group>"; };
+		270553BB19EA02D400AC2085 /* jebus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jebus.jpg; sourceTree = "<group>"; };
+		270553BC19EA02D400AC2085 /* laura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laura.jpg; sourceTree = "<group>"; };
+		270553BD19EA02D400AC2085 /* pancho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancho.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +121,11 @@
 			children = (
 				2705537519E9DBE100AC2085 /* AppDelegate.h */,
 				2705537619E9DBE100AC2085 /* AppDelegate.m */,
+				270553B519EA00A700AC2085 /* vars.h */,
+				270553B619EA00A700AC2085 /* vars.m */,
 				2705537819E9DBE100AC2085 /* ViewController.h */,
+				270553B219E9FD7D00AC2085 /* FirendList.h */,
+				270553B319E9FD7D00AC2085 /* FirendList.m */,
 				270553A319E9EDF600AC2085 /* bar.h */,
 				270553A419E9EDF600AC2085 /* bar.m */,
 				2705537919E9DBE100AC2085 /* ViewController.m */,
@@ -151,6 +173,12 @@
 		2705539719E9E06500AC2085 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				270553B819EA02D400AC2085 /* carmen.jpg */,
+				270553B919EA02D400AC2085 /* chango.jpg */,
+				270553BA19EA02D400AC2085 /* jaimed.jpg */,
+				270553BB19EA02D400AC2085 /* jebus.jpg */,
+				270553BC19EA02D400AC2085 /* laura.jpg */,
+				270553BD19EA02D400AC2085 /* pancho.jpg */,
 				270553AC19E9F8CF00AC2085 /* cal@2x.png */,
 				270553AD19E9F8CF00AC2085 /* msg@2x.png */,
 				270553AE19E9F8CF00AC2085 /* tbl@2x.png */,
@@ -242,10 +270,16 @@
 				2705537D19E9DBE100AC2085 /* Main.storyboard in Resources */,
 				2705538219E9DBE100AC2085 /* LaunchScreen.xib in Resources */,
 				270553B019E9F8CF00AC2085 /* msg@2x.png in Resources */,
+				270553C119EA02D400AC2085 /* jebus.jpg in Resources */,
 				2705537F19E9DBE100AC2085 /* Images.xcassets in Resources */,
+				270553C219EA02D400AC2085 /* laura.jpg in Resources */,
 				2705539919E9E09400AC2085 /* Background - Black.png in Resources */,
+				270553BF19EA02D400AC2085 /* chango.jpg in Resources */,
 				270553AF19E9F8CF00AC2085 /* cal@2x.png in Resources */,
+				270553C019EA02D400AC2085 /* jaimed.jpg in Resources */,
 				270553B119E9F8CF00AC2085 /* tbl@2x.png in Resources */,
+				270553BE19EA02D400AC2085 /* carmen.jpg in Resources */,
+				270553C319EA02D400AC2085 /* pancho.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +300,9 @@
 				270553A219E9EDC400AC2085 /* view3.m in Sources */,
 				2705537A19E9DBE100AC2085 /* ViewController.m in Sources */,
 				2705537719E9DBE100AC2085 /* AppDelegate.m in Sources */,
+				270553B419E9FD7D00AC2085 /* FirendList.m in Sources */,
 				2705539C19E9E8B200AC2085 /* view1.m in Sources */,
+				270553B719EA00A700AC2085 /* vars.m in Sources */,
 				2705537419E9DBE100AC2085 /* main.m in Sources */,
 				2705539F19E9EDA800AC2085 /* view2.m in Sources */,
 				270553A519E9EDF600AC2085 /* bar.m in Sources */,

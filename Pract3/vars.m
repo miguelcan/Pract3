@@ -1,14 +1,15 @@
 //
-//  view1.h
+//  vars.m
 //  Pract3
 //
 //  Created by mike on 11/10/14.
 //  Copyright (c) 2014 mike. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "vars.h"
 
-@interface view1 : UIViewController
-- (IBAction)evtShare:(id)sender;
+@implementation vars
+  NSMutableArray *maFrd;
+  NSMutableArray *maImgf;
 
 @end
