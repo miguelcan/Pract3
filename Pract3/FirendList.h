@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirendList : UITableViewCell
+@interface FirendList : UITableViewCell {
+    UIViewController *viewController;
+}
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
 @property (strong, nonatomic) IBOutlet UIImageView *imgFriend;
 - (IBAction)evtShareCell:(id)sender;
-
+@property (strong, nonatomic) IBOutlet UIButton *btnCom;
+@property (nonatomic, assign) UIViewController *viewController;
 @end

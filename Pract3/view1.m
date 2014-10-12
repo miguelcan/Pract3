@@ -58,7 +58,8 @@
     
     cell.lblName.text       = maFrd[indexPath.row];
     cell.imgFriend.image    = [UIImage imageNamed:maImgf[indexPath.row]];
-    
+    cell.btnCom.tag = indexPath.row;
+    cell.viewController = self;
     return cell;
 }
 
@@ -88,6 +89,7 @@
 */
 
 - (IBAction)evtShare:(id)sender {
+    
     NSString                    *strShareMsg;
     NSArray                     *aShareItems;
     UIImage                     *imgShare;
