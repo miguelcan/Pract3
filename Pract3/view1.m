@@ -88,5 +88,20 @@
 */
 
 - (IBAction)evtShare:(id)sender {
+    NSString                    *strShareMsg;
+    NSArray                     *aShareItems;
+    UIImage                     *imgShare;
+    UIActivityViewController    *actViewController;
+    
+    NSString *frd = [maFrd componentsJoinedByString:@", "];
+    strShareMsg = [NSString stringWithFormat:@"Mi directorio completo es: %@",frd];
+    imgShare    = [UIImage imageNamed:@"meta.jpg"];
+    aShareItems = @[imgShare, strShareMsg];
+    
+    actViewController = [[UIActivityViewController alloc] initWithActivityItems:aShareItems applicationActivities:nil];
+    
+    actViewController.excludedActivityTypes = [NSArray arrayWithObjects:UIActivityTypePrint, UIActivityTypeAssignToContact, UIActivityTypeCopyToPasteboard, UIActivityTypeAirDrop, UIActivityTypeSaveToCameraRoll, nil];
+    
+    [self presentViewController:actViewController animated:YES completion:nil];
 }
 @end
