@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface view3 : UIViewController
+@property (strong, nonatomic) IBOutlet UIDatePicker *pick2;
+@property (strong, nonatomic) IBOutlet UILabel *lblDif;
+- (IBAction)evtCal:(id)sender;
+- (IBAction)evtComp:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UIDatePicker *pick1;
 @end
